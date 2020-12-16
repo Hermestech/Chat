@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: hsl(206, 6%, 79%);
+}
+/* .bar {
+    display: flex;
+    flex-direction: column;
+    margin-top: -10px;
+    margin-left: 90px;
+    width: 200px;
+    height: 30px;
+    background-color: white;
+    border-radius: 15px;
+    border: white 1px solid;
+    position: relative;
+} */
+.main__container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 325px;
+    border: white 12px solid;
+    border-radius: 30px;
+    background-color: hsl(270, 20%, 96%);
+}
+.owner {
+    height: 80px;
+    display: inline-flex;
+    justify-content: space-around;
+    border-radius: 25px 25px 10px 10px;
+    background: linear-gradient(to right, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+}
+
+.owner__list--container{
+    margin-top: 9%;
+    position: relative;
+    margin-left: -12%;
+}
+.owner h4 {
+    color: hsl(276, 100%, 81%);
+}
+.owner p {
+    font-size: smaller;
+    color: whitesmoke;
+}
+.owner__image--container{
+    margin-top: 10%;
+    max-width: 50px;
+}
+.owner__image--container img {
+    border-radius: 15rem;
+    border: white 1px solid;
+    width: 30px;
+}
+.owner a {
+    margin-top: 10%;
+}
+.chat,  .chat1, .chat2 {
+    background-color: hsl(270deg 40% 90%);
+    margin: 2%;
+    padding: 2%;
+    border-radius: 10px;
+    margin-right: 30%;
+}
+.chat p,
+.chat1 p,
+.chat2 p {
+    color: hsl(276, 55%, 52%);
+}
+.photos__section {
+    display: inline-flex;
+    justify-content: flex-end;
+}
+.photos__section img {
+    width: 40px;
+    margin: 2%;
+}
+.right, .right1 {
+    background-color: white;
+    color: hsl(271, 15%, 43%);
+    margin: 2%;
+    margin-left: 30%;
+    padding: 2%;
+    border-radius: 10px;
+}
+.right1 {
+    display: flex;
+    align-self: flex-end;
+    width: 50%;
+}
+.timer, .timer1 {
+    display: inline-flex;
+    justify-content: space-between;
+    background: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    color: white;
+    margin: 2%;
+    margin-bottom: 5%;
+    margin-right: 30%;
+    padding: 3%;
+    border-radius: 10px;
+}
+.timer p,
+.timer1 p {
+    font-weight: 400;
+    font-size: 10px;
+}
+.timer p{
+    padding-top: 2%;
+    margin-left: -25%;
+}
+.timer1 p {
+    padding-top: 2%;
+    margin-left: -30%;
+}
+.timer strong, 
+.timer1 strong{
+    color: white;
+}
+.timer__circle,
+.timer1__circle{
+     width: 20px;
+     height: 20px;
+     border-radius: 50%;
+     border: white 1px solid;
+}
+.placeholder {
+    display: inline-flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 80%;
+    height: 40px;
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 5%;
+}
+.placeholder p {
+    font-size: small;
+    margin: 5%;
+    color: hsl(270, 7%, 64%);
+}
+.placeholder button {
+    border-radius: 50rem;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    text-align: center;
+}
+footer h1 {
+    color: hsl(271, 36%, 24%);
+}
+footer p {
+    font-weight: 400;
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
