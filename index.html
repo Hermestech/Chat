@@ -7,12 +7,18 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./main.css">
 
-  <title>aLEX</title>
+  <title>Alex</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    df-messenger {
+      --df-messenger-bot-message:  #151573;
+      --df-messenger-button-titlebar-color: #151573;
+      --df-messenger-chat-background:  #333333;
+      --df-messenger-font-color: #ececec;
+      --df-messenger-send-icon: hsl(270deg 40% 90%);
+      --df-messenger-user-message:#333333;
+     }
   </style>
 </head>
 <body>
@@ -31,7 +37,7 @@
             <img src="./images/bot.jpg" alt="dueño">
           </picture>
           <ul class="owner__list--container">
-            <h4>  aLex</h4>
+            <h4>  Alex</h4>
             <p> Available to talk</p>
           </ul>
           <a href="">:</a>
@@ -80,7 +86,7 @@
   <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
     <df-messenger
       intent="WELCOME"
-      chat-title="aLEX"
+      chat-title="Alex"
       agent-id="63892321-ee49-42c1-beca-9af698842d93"
       language-code="es"
     ></df-messenger>
